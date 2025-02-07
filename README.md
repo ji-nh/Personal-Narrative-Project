@@ -19,7 +19,7 @@ Use your knowledge of object-oriented programming, two-dimensional (2D) arrays, 
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README.
 
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project](umldia.png)
 
 ## Video
 
@@ -31,13 +31,17 @@ Record a short video of your story to display here on your README. You can do th
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](project.png)](https://www.youtube.com/watch?v=SX14CwLheeg)
+
+^Click on the image for short video demo. 
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+Ever since childhood, music has been my passion, leading me to explore various instruments. This animation showcases my musical journey through the piano, drums, violin, and guitar. Each instrument is presented with an image, its own sound, and information about how long I practiced for. The visual effects applied to the images showcase my  "passion" with each instrument. Two 2D arrays that showcase this are **mediaFiles** that contains filenames for images and sounds, while **descriptions** holds practice durations and instrument names. Together, these arrays create a multi explanatory story of my musical exploration, allowing the audience to see, hear, and understand my experiences with each instrument.
+
 
 ## Image Filter Analysis
 
-Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+In my animation, I used three main filters: fade, blur, and border. The fade filter changes the brightness of the image by adjusting the red, green, and blue values of each pixel. It adds a set amount to each color, making the image lighter or darker. I tried to make a "blur" filter which acts as a way to "blur" by the color, blue. It works by setting a random blue value for each pixel, creating a unique, somewhat chaotic look. The border filter adds colorful edges to the image by changing the color of pixels near the edges. It sets pixels in the top and bottom rows to one color, and pixels in the left and right columns to another color, creating a "frame effect" around the image. These filters work together to make the instrument images more interesting and dynamic in the animation.
+
 
